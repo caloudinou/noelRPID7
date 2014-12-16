@@ -1,5 +1,6 @@
 <!Doctype html>
 <html lang='fr'>
+    
     <head>
      <meta charset="UTF-8">
      <title>Inscription Noël</title>
@@ -19,6 +20,7 @@
                 à la personnes dont le nom sera affiché.
                 dinné de noel ou gouter de noël + beuverie de noël
             </p>
+            
         </section>
     </body>
 </html>
