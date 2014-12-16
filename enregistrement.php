@@ -22,15 +22,3 @@ function addFormulaire($email,$nom,$prenom) {
     $stmt->close();
     $db->close();
 }
- 
-header('Content-Type: text/html; charset=utf-8');
-if (isset($_POST['courriel'])&&isset($_POST['nom'])&&isset($_POST['prenom'])) {
-    $email = $_POST['courriel']; 
-    $nom   = $_POST['nom']; 
-    $prenom= $_POST['prenom']; 
-    
-    addFormulaire($email,$nom,$prenom);
-    echo "Votre demande d’invitation a bien été prise en compte.";
-} else {
-    echo "formulaire non valide";
-}
