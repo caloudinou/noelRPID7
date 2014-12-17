@@ -6,6 +6,7 @@ $pdo->query("
         email                   VARCHAR( 450 ) UNIQUE,
 	nom			TEXT NOT NULL,
 	prenom			TEXT NOT NULL,
+        id_cadeau               INT,
 	ip			TEXT,
 	proxy			TEXT,
 	useragent		TEXT,
