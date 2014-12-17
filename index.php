@@ -40,8 +40,8 @@
                 dinné de noel ou gouter de noël + beuverie de noël
             </p>
             <?php 
-                include 'selection.php';
                 include 'melangemoica.php';
+                randomPD($id);
             ?>
         </section>
     </body>
