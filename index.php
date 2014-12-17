@@ -39,7 +39,10 @@
                 à la personnes dont le nom sera affiché.<br>
                 dinné de noel ou gouter de noël + beuverie de noël
             </p>
-            <?php include 'selection.php';?>
+            <?php 
+                include 'selection.php';
+                include 'melangemoica.php';
+            ?>
         </section>
     </body>
 </html>

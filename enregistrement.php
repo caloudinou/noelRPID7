@@ -21,6 +21,15 @@ try{
                             );
     
 } 
-catch(Exception $e)
+catch(PDOException $e)
 {
+    echo $e->getMessage();
+    echo $e->getLine();
+    echo $e->getCode();
+    echo $e->getFile();
+    echo $e->getTraceAsString();
+    echo $e->getTrace();
+    echo $e->getPrevious();
+    
+    
 }
