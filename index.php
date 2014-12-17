@@ -1,5 +1,6 @@
-<?php 
-        require_once 'enregistrement.php'; 
+<?php
+    include 'connection.php';
+    include 'createBd.php';
 ?>
 <!Doctype html>
 <html lang='fr'>

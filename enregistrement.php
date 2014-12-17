@@ -1,10 +1,6 @@
-<?php
-$result = false;
-$except = false;
-                
+<?php   
+
 try{
-    include 'connection.php';
-    include 'createBd.php';
     
     //préparation de la requete insertion dans la bdd
     $stmt = $pdo->prepare("
